@@ -550,7 +550,7 @@ return /******/ (function(modules) { // webpackBootstrap
 					}
 					
 					// Make slope width proportional to block value decrease
-					if (this.dynamicSlope) {
+					if (_this3.dynamicSlope) {
 						const nextBlockValue = this.blocks[i + 1] ?
 							this.blocks[i + 1].value :
 							block.value;
